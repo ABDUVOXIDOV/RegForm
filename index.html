@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/styles/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    </head>
+<body>
+    <div class="about">
+        <form class="card">
+            <h1 class="firstH1">Login</h1>
+            <input type="text" name="email" id="email" placeholder="Email" required>
+            
+                <input type="password" name="password" id="password" placeholder="Password">
+                <i onclick="eye()" class="far fa-eye" id="togglePassword"></i>
+            
+            <input type="submit" id="login" value="Login">
+            <h1 class="secondH1">or</h1>
+            <!-- <input type="submit" id="register" value="Register"> -->
+            <a id="register" href="./reg.html">Register</a>
+        </form>
+    </div>
+
+    <script src="./app2.js"></script>
+</body>
+</html>
